@@ -1,8 +1,8 @@
 {
-  "name": "nestjs-loki-logger",
+  "name": "@scrimmage/loki-logger",
   "version": "0.1.0",
   "description": "",
-  "author": "sreeteja06",
+  "author": "support@scrimmage.co",
   "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sreeteja06/nestjs-loki-logger.git"
+    "url": "git+https://github.com/Scrimmage-co/nestjs-loki-logger.git"
   },
   "keywords": [
     "nestjs",
@@ -44,7 +44,11 @@
     "grafana"
   ],
   "bugs": {
-    "url": "https://github.com/sreeteja06/nestjs-loki-logger/issues"
+    "email": "support@scrimmage.co"
   },
-  "homepage": "https://github.com/sreeteja06/nestjs-loki-logger#readme"
+  "homepage": "https://github.com/Scrimmage-co/nestjs-loki-logger#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
